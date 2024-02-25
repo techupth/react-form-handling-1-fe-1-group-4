@@ -8,8 +8,8 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
     setGreetingMessage(inputMessage);
-
   }
+  
   return (
     <div className="App">
       <div className="greeting-container">{greetingMessage}</div>
